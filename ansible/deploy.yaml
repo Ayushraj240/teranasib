@@ -1,0 +1,7 @@
+---
+- name: Test EC2 connection
+  hosts: ec2
+  become: false  # Use true only if elevated privileges are needed
+  tasks:
+    - name: Ping EC2 instance
+      ansible.builtin.ping:

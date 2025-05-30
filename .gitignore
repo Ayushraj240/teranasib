@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+
+# SSH keys
+*.pem
+
+# Ansible cache
+*.retry
+
+# OS junk files
+.DS_Store
+Thumbs.db
