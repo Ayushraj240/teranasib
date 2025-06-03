@@ -1,3 +1,3 @@
-output "ec2-public-id" {
-  value = "aws_insatnce.raj_vm.public_ip"
+output "instance_ip" {
+  value = aws_instance.raj_vm.public_ip
 }
